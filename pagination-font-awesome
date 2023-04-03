@@ -1,0 +1,12 @@
+<?php
+
+// Styling the_posts_pagination() with Font Awesome:
+
+
+            the_posts_pagination( array(
+              'prev_text' => __( '<i class="fa fa-arrow-left"></i>', 'textdomain' ),
+              'next_text' => __( '<i class="fa fa-arrow-right"></i>', 'textdomain' ),
+          ));
+          
+          
+?>
